@@ -19,7 +19,7 @@ r = redis.Redis(host='127.0.0.1', port=6379)
 
 
 def task():
-    with open("citys.json") as json_file:
+    with open("citys.json", 'r', encoding="UTF-8") as json_file:
         citys = json.load(json_file)
         print(str.format("准备同步以下城市的数据 {}", citys))
         for city in citys:
