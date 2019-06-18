@@ -16,8 +16,8 @@ from juhe.weather import Weather
 weather_api = Weather()
 
 def task():
-    with open("citys.json") as json_file:
-        citys = json.load(json_file, encoding="gb18030")
+    with open("citys.json", 'r', encoding="UTF-8") as json_file:
+        citys = json.load(json_file)
         for city in citys:
             city_name =  city["name"]
             city_code = city["code"]
