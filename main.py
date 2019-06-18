@@ -39,6 +39,7 @@ def task():
             print(sync_data)
 
 if __name__ == '__main__':
+    task()
     scheduler = BlockingScheduler()
     scheduler.add_job(task, 'cron', hour = "5")
     try:
