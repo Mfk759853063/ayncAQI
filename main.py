@@ -10,7 +10,6 @@
 import datetime
 import os
 from apscheduler.schedulers.blocking import BlockingScheduler
-import Spider
 import json
 from juhe.weather import Weather
 import redis
