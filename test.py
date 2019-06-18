@@ -17,7 +17,7 @@ weather_api = Weather()
 
 def task():
     with open("citys.json") as json_file:
-        citys = json.load(json_file, encoding="utf-8")
+        citys = json.load(json_file, encoding="gb18030")
         for city in citys:
             city_name =  city["name"]
             city_code = city["code"]
