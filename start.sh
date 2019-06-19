@@ -1,3 +1,3 @@
 #!/bin/bash
-nohup python -u main.py &
+nohup python3 -u main.py &
 echo $! > save_pid.txt
