@@ -1,0 +1,8 @@
+准备同步以下城市的数据 [{'name': '重庆市', 'code': '101040100'}, {'name': '宜宾市', 'code': '101271101'}, {'name': '烟台市', 'code': '101120501'}]
+{'pm2_5': '27', 'pm10': '45', 'aqi': '45', 'condTxt': '阴', 'temp': '28', 'humidity': '74', 'name': '重庆市', 'updatetime': '19, 06 2019'}
+{'pm2_5': '13', 'pm10': '23', 'aqi': '29', 'condTxt': '多云', 'temp': '26', 'humidity': '79', 'name': '宜宾市', 'updatetime': '19, 06 2019'}
+{'pm2_5': '21', 'pm10': '34', 'aqi': '43', 'condTxt': '多云', 'temp': '22', 'humidity': '76', 'name': '烟台市', 'updatetime': '19, 06 2019'}
+准备同步以下城市的数据 [{'name': '重庆市', 'code': '101040100'}, {'name': '宜宾市', 'code': '101271101'}, {'name': '烟台市', 'code': '101120501'}]
+{'pm2_5': '27', 'pm10': '45', 'aqi': '45', 'condTxt': '阴', 'temp': '28', 'humidity': '74', 'name': '重庆市', 'updatetime': '19, 06 2019'}
+{'pm2_5': '13', 'pm10': '23', 'aqi': '29', 'condTxt': '多云', 'temp': '26', 'humidity': '79', 'name': '宜宾市', 'updatetime': '19, 06 2019'}
+{'pm2_5': '21', 'pm10': '34', 'aqi': '43', 'condTxt': '多云', 'temp': '22', 'humidity': '76', 'name': '烟台市', 'updatetime': '19, 06 2019'}
