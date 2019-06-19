@@ -28,7 +28,7 @@ def task():
             city_info = weather_api.get_info_by_city(city_name)
             sync_data = {"pm2_5": city_info["air"].get("pm25", ""),
                              "pm10": city_info["air"].get("pm10", ""),
-                             "api": city_info["air"].get("aqi", ""),
+                             "aqi": city_info["air"].get("aqi", ""),
                              "condTxt": city_info["weather"].get("cond_txt", ""),
                              "temp": city_info["weather"].get("tmp", ""),
                              "humidity": city_info["weather"].get("hum", ""),
